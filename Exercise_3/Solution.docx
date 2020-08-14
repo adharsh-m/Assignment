@@ -1,0 +1,15 @@
+Troubleshooting:
+1. Tried with Restarting the redis server and got the error.
+2. Found the config at /etc/redis/redis.conf and run the EXEC command manually to isolate the error.
+3. Had an issue with accessing the config file so added permission to make the file accessible.
+4. The next step on running failed with acess denied on log file creation at /var/log/redis-server.log.
+5. Fixed up by providing permission on the Logs file.
+6. Reinstalled the Redis server now to complete down any incomplete setup.
+7. Started the Redis server and checked the staus and logs and everything seems to be working now.
+
+Issue: 
+Permission related issue with redis user not able to access certain config files and folders needed to start the service.
+Issue might have been due to installation failures or incomplete installation.
+
+Fix: 
+Allowing redis user the Permission needed and reinstalling the redis-server fixed the issue and the service is now up and running.
