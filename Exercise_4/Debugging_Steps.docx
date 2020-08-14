@@ -1,0 +1,7 @@
+Troubleshooting:
+1. The application hits a 503 and is listening on port 80.
+2. when checking which service is running on the specific port was able to find a PID of 4 from netstat
+3. This PID of 4 made to suspect whether some other system port is holding the 80 which our server needs.
+4. To release that stopped the http process by running net stop http /y
+
+Note: Still couldnt get the server to function. The above is just the Troubleshooting steps that i tried with my limited knowledge on windows servers.
