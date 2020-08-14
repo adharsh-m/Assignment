@@ -4,4 +4,4 @@ Troubleshooting:
 3. This PID of 4 made to suspect whether some other system port is holding the 80 which our server needs.
 4. To release that stopped the http process by running net stop http /y
 
-Note: Still couldnt get the server to function. The above is just the Troubleshooting steps that i tried with my limited knowledge on windows servers.
+Note: Still couldn't get the server to function. The above is just the Troubleshooting steps that i tried with my limited knowledge on windows servers.
