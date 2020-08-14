@@ -1,0 +1,12 @@
+subscription_id = ""
+client_id = ""
+client_secret = ""
+tenant_id = ""
+location = "East US"
+resource_group_name = "Trbhi_Assign"
+vnet_cidr = "10.0.0.0/16"
+subnet_cidr = "10.0.1.0/24"
+vm_username = "adharsh"
+pub_key = ""
+allowed_ssh_ips = []
+instance_count = "2"
